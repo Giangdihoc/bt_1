@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+  background-color: #000;
+  color: #fff;
+  height: 48px;
+}
+
+#intro {
+  display: inline-block;
+}
+
+#intro li {
+  display: inline-block;
+}
+
+#intro > li a{
+  display: block;
+}
+
+#intro li a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 47px;
+  padding: 0 24px;
+}
+
+#intro li a:hover{
+  background-color: #ccc;
+  color: #000;
+}
+
+#intro > li > a {
+  text-transform: uppercase;
+}
+
+#intro > .menu > .card {
+  display: none;
+}
+
+#intro > .menu > .card > a {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  box-shadow: 3px 5px;
+}
+
+#intro > li:hover {
+  background-color: #ccc;
+}
+
+#intro > li:hover > .card {
+  display: block;
+  z-index: 10;
+  position: absolute;
+}
+
+#intro > li:hover > .card > a:hover {
+  color: #000 !important;
+  background-color: #ccc;
+}
+
+
+/* chad */
+
+#header .search-btn{
+  float: right;
+}
+
+#header .search-btn:hover{
+  background-color: red;
+}
+
+.search-icon {
+  padding: 0px 25px;
+  line-height: 48px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+

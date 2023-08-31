@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-section {
+  padding: 64px 0;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  font-size: "Segoe UI",Arial,sans-serif;
+  margin: 10px 0;
+}
+
+.section-sub-heading {
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+.about-text {
+  display: block;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+
+}
+
+.member-list {
+  margin-top: 47px;
+  overflow: hidden;
+}
+
+.member-item {
+  float: left;
+  text-align: center;
+  width: 33.33333%;
+}
+
+.member-name {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+.name-img {
+  margin-top: 15px;
+  width: 154px;
+}
+
+.member-name:hover .name-img{
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.clear {
+  clear: both;
+}
+
+.tour-sion {
+  background-color: #000;
+}
+
+.note-lits {
+  background-color: #fff;
+  margin-top: 40px;
+}
+
+.note-lits li {
+  font-size: 20px;
+  padding: 10px 25px;
+  border: 1px solid #ddd;
+  color: #757575;
+  list-style-type: none;
+}
+
+.Sold-out {
+  background-color: #f44336;
+  padding: 3px 4px;
+  color: #fff;
+
+}
+
+.Quantity {
+  float: right;
+  margin-right: 16px;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 6px;
+}
+
+.calendar-list {
+  display: block;
+  margin: 32px -8px -0;
+}
+
+.calendar {
+  float: left;
+  width: calc(100%/3);
+  padding: 0 8px;
+}
+
+.img-calendar {
+  display: block;
+  width: 100%;
+}
+
+.calendar-content {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.calendar-header {
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
+}
+
+.calendar-time {
+  padding-top: 15px;
+  color: #757575;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+.calendar-text{
+  padding-top: 15px;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.Buy-Tickets-btn {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+/* startd */
+
+
+.section-heading{
+  font-size: 30px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.section-sub-heading{
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* bangbieu */
+
+.row-active {
+  display: flex;
+  justify-content:space-around;
+  padding-top: 50px;
+}
+
+.horizontal-row {
+  font-size: 20px;
+  padding-left: 250px;
+}
+
+.fa-solid {
+  font-size: 25px;
+  padding-right: 30px;
+}
+
+.horizontal-rowl {
+  display: block;
+  font-size: 25px;
+  padding-right: 100px;
+  justify-content:space-around;
+  flex-direction: column;
+}
+
+/* bang */
+
+input[type=text] {
+  width: 48%;
+  padding: 13px;
+  box-sizing: border-box;
+  margin: 0 4px;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  float: right;
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.map-size img {
+  width: 100%;
+  padding-top: 40px;
+}
